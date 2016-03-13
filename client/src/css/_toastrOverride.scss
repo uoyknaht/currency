@@ -1,0 +1,9 @@
+#toast-container > div {
+  box-shadow: none;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter: alpha(opacity=100);
+}
+#toast-container > :hover {
+  box-shadow: none;
+}

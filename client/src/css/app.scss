@@ -1,0 +1,57 @@
+@import "_nav";
+@import "_toastrOverride";
+// @import "map_marker";
+
+body {
+      padding-top: 70px;
+}
+
+.google-map {
+    width: 500px;
+    height: 500px;
+}
+
+.tr-marker {
+    // background: green;
+    // background-image: url('../assets/icons/map_icons/map_icon_text_red.svg');
+    background-image: url('img/place-marker.svg');
+    background-size: contain;
+    transform: scale(1, 1);
+    -webkit-filter: contrast(1);
+    will-change: transform;
+    transition: -webkit-transform 0.25s cubic-bezier(0.485, 1.65, 0.545, 0.835);
+    transform-origin: 8px 100%;
+    // margin-left: -40px;
+    // margin-top: -30px;
+
+    &:hover {
+        transform: scale(1.4, 1.4);
+    }
+}
+
+.list-group-item-heading {
+    color: #333333;
+    font-size: 16px;
+}
+
+.help-block {
+    font-size: 12px;
+}
+
+.cr-main-form {
+    font-size: 50px;
+    text-align: center;
+}
+
+.cr-equal {
+    margin-top: 50px;
+    font-size: 200px;
+    line-height: 60px;
+}
+
+.cr-main-input {
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    font-size: 150px;
+}
